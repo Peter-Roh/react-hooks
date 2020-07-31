@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 export const useClick = (onClick) => {
     const element = useRef();
 
